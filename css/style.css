@@ -1,0 +1,203 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+h1,
+h2,
+h3 {
+  font-family: "Pirata One", sans-serif;
+  color: white;
+}
+
+h1 .section-title {
+  color: white;
+}
+
+p {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.5rem;
+  line-height: 2rem;
+}
+
+p,
+input,
+textarea,
+li {
+  color: white;
+}
+
+a {
+  text-decoration: none;
+}
+
+.main-container {
+  background: #000;
+  width: 100%;
+  margin: 0 auto;
+}
+
+@media screen and(max-width:1200px) {
+  .main-container {
+    width: 90%;
+  }
+}
+
+.hero-title {
+  font-size: 8rem;
+  margin-top: 2rem;
+  margin-bottom: -1.5rem;
+}
+
+.section-title {
+  font-size: 5rem;
+  margin-top: 2rem;
+}
+
+.section-stitle {
+  font-size: 4rem;
+  color: lightseagreen;
+}
+
+.pre-title {
+  margin-top: 1rem;
+  text-transform: uppercase;
+  letter-spacing: 0.5rem;
+  color: coral;
+  position: relative;
+  padding-left: 40px;
+  width: fit-content;
+  font-weight: 500;
+  font-size: 0.9rem;
+}
+
+.pre-title::before {
+  content: "";
+  width: 30px;
+  height: 1px;
+  background: black;
+  position: absolute;
+  display: block;
+  left: 0;
+  top: 50%;
+}
+
+#hero {
+  height: 378px;
+  align-items: center;
+}
+
+.hero {
+  background-color: black;
+  margin-top: 10rem;
+  padding: 3rem 2rem;
+  border-radius: 0.7rem;
+}
+
+#skill {
+  height: 678px;
+  align-items: center;
+}
+
+.skill {
+  background-color: white;
+  padding: 3rem 2rem;
+  border-radius: 0.7rem;
+}
+
+#tentang {
+  height: 678px;
+  align-items: center;
+}
+
+.tentang {
+  margin-top: 20rem;
+  padding: 3rem 2rem;
+  background-color: black;
+  border-radius: 0.7rem;
+}
+
+#exp {
+  height: 678px;
+  align-items: center;
+}
+
+.exp {
+  margin-top: 20rem;
+  padding: 3rem 2rem;
+  background-color: white;
+  border-radius: 0.7rem;
+}
+
+#message {
+  height: 478px;
+  align-items: center;
+}
+
+.message {
+  margin-top: 25rem;
+  padding: 3rem 2rem;
+  background-color: black;
+  border-radius: 0.7rem;
+}
+@media screen and (max-width: 1000px) {
+  p {
+    font-size: 0.9rem;
+    line-height: 1.8rem;
+  }
+  .section-title {
+    font-size: 3rem;
+    margin: 0.6rem 0 2.5rem;
+  }
+  .hero-title {
+    font-size: 5.2rem;
+  }
+  .section-stitle {
+    font-size: 3rem;
+  }
+  footer {
+    display: none;
+  }
+  .tentang {
+    display: none;
+  }
+  .exp {
+    display: none;
+  }
+  .message {
+    margin-top: -10rem;
+  }
+}
+
+footer {
+  padding: 2rem 0;
+  background: white;
+  text-align: center;
+  color: black;
+}
+
+.footer-icons {
+  margin-bottom: 1rem;
+}
+
+.footer-icons a {
+  margin: 0 0.5rem;
+}
+
+.footer-icons svg {
+  fill: #3e3f40;
+}
+
+.footer-icons a:hover {
+  fill: #000;
+}
+
+@media screen and (max-width: 825px) {
+  .main-container {
+    width: 90%;
+  }
+}
+
+@media screen and (max-width: 640px) {
+}
